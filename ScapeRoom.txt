@@ -1,0 +1,46 @@
+ELNUMEROQUE
+ BUSCASES
+ELCATORCE   ---> PRIMER EXPERIMENTO 
+
+Laboratorio A= Amarilla Abierta burbujeante
+Laboratorio B= Morada
+Laboratorio C= 32 --> resultado
+Laboratorio D= Azul Abierta burbujeante ---> Segundo experimento
+
+Laboratorio a: sin verde
+Laboratorio b: M= D
+Laboratorio c: codificado no codificado
+Laboradorio d: O=F
+
+m n o p q r s t u v w x y z    original
+d e f g h i j k l m n o p q    cifrado
+ 
+a b c d e f g h i              original
+r s t u v w x y z              cifrado
+
+s u m a  t
+r e c e  y
+q u i n  c
+e . r e  s
+t a d o  s    26----> Experimento   3                                                                                                                                             
+
+
+newton       +    B                 A 42       Pitagoras    42
+musk        12                         3       newton        +
+einsten      5    C                 B  +       pasteur       3
+tesla        x                        12       Tesla         x
+Pitagoras   42    A                 C  5       einstein      5
+pasteur      3                         X       severo ochoa  -
+severo ochoa -    D                 D  -       musk          12  ---> 45 Experimiento 4
+
+
+experimiento 5--> 76
+
+experimento 6----> 13
+
+a= pastel platano
+b= hamburgesa peligro
+c= manza corona
+d= cerveza helado
+
+

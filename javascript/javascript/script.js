@@ -22,24 +22,53 @@
 
 
 // Función que muestra un mensaje de alerta según la edad proporcionada
-var edad;
-var res= "s";
+//var edad;
+//var res = "s";
 
-function mostrarMensajeEdad(edad) {
-    if (edad >= 0 && edad <= 17) {
-        alert("Eres un niñ@.");
-    } else if (edad >= 18 && edad <= 21) {
-        alert("Estas chav@.");
-    } else if (edad >= 21 && edad <= 39) {
-        alert("Chavorruc@ detectad@.");
-    } else if (edad >= 40 && edad <= 60) {
-        alert("Checa lo de tu afore.");
-    } else if (edad >= 65) {
-        alert("que haces aqui? ya vayase a dormir ancian@.");
-    } else {
-        alert("Edad no válida.");
-    }
-}
-do{
 
-}while(res=="s");
+
+/* while(res==="s"){
+
+   edad = parseInt(prompt("Dame tu edad"));
+
+   if (0 <= edad && edad < 18) {
+       alert("Eres un niñ@.");
+  } else if (19 <= edad && edad < 30) {
+     alert("Estas chav@.");
+  } else if (31 <= edad && edad < 39) {
+       alert("Chavorruc@ detectad@.");
+   } else if (40 <= edad && edad < 64) {
+      alert("EL FUTURO ES HOY ANCIAN@");
+   } else if (edad >= 65) {
+       alert("que haces aqui? ya vayase a dormir ancian@.");
+     } else {
+     alert("Edad no válida.");
+    }       res=prompt("a que vienes de nuevo")    
+  }
+
+*/
+
+
+// Tipos de datos y variable//
+
+// scope es el alcance de nuestras variables
+
+/* var, let, const la diferencia es el alcance
+
+var tiene un alcance global
+let tiene un alcance local
+const se mantine sin ningun cambio */
+
+/* string: cadena de texto (lleva comillas "" )
+number: numero
+noolena: true/false
+null: nulo
+undefined: no esta asignado o definido */
+
+
+let nombre = "Daniel";
+let invitadosExtra = 2;
+let esMayorEdad = true;
+let edad = 24;
+let invitadoEspecial = null;
+let horaDeSalida = undefined;

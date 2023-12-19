@@ -32,7 +32,7 @@ body {
     gap: 15px;
 }
 
-.maincontainder{
+.maincontainer{
     display: flex;
     justify-content: center;
     align-items: center;

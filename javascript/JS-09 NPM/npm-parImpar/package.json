@@ -1,0 +1,17 @@
+{
+  "name": "npm-parimpar-alemanguy",
+  "version": "1.0.0",
+  "description": "Permite derterminar si el numero es par o impar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generation",
+    "parimpar",
+    "ch35"
+  ],
+  "author": "alemanguy",
+  "license": "ISC",
+  "type": "module"
+}

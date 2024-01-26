@@ -35,6 +35,7 @@ public class Employee {
 	public void setNombreCompleto(String nombreCompleto) {
 		this.nombreCompleto = nombreCompleto;
 	}
+	public void setIncremento
 
 	public int getId() {
 		return id;

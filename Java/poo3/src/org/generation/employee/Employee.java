@@ -5,29 +5,34 @@ public class Employee {
 	private int id;
 	private double salario;
 	private String puesto;
+	
+	//Constructor
 	public Employee(String nombreCompleto, int id, double salario, String puesto) {
+		super();
 		this.nombreCompleto = nombreCompleto;
 		this.id = id;
 		this.salario = salario;
 		this.puesto = puesto;
 	}
 	
-	public void trabajar() {
-		System.out.println(this.nombreCompleto + " está trabajando");
+	//metodos
+	public void trabajar(){
+		System.out.println(this.nombreCompleto + " esta rabajanding con trabajanda");
 	}
 	
-	public void calcularSalario() {
-		System.out.println("El salario del empleado "+this.nombreCompleto+" "+this.salario);
+	public void calcularSalario(){
+		System.out.println("El salario base del esclav0 " + this.nombreCompleto + " es: $" + this.salario);
 	}
 	
-	public void capacitarse() {
-		System.out.println("Los empleados con puesto de " + this.puesto + " se capacitan");
+	public void capacitarse(){
+		System.out.println("El esclav0 con el puesto " + this.puesto + " se capacita");
 	}
 	
-	public void infoGeneral() {
-		System.out.println("Id: "+this.id+", Nombre: "+this.nombreCompleto+", puesto: "+this.puesto);
+	public void infoGeneral(){
+		System.out.println("Id: " + this.id + ", Nombre: " + this.nombreCompleto + ", Puesto: " + this.puesto);
 	}
 
+	//Getters y Setters
 	public String getNombreCompleto() {
 		return nombreCompleto;
 	}
@@ -35,7 +40,6 @@ public class Employee {
 	public void setNombreCompleto(String nombreCompleto) {
 		this.nombreCompleto = nombreCompleto;
 	}
-	public void setIncremento
 
 	public int getId() {
 		return id;
@@ -61,6 +65,8 @@ public class Employee {
 		this.puesto = puesto;
 	}
 
+	
+	//toString
 	@Override
 	public String toString() {
 		return "Employee [nombreCompleto=" + nombreCompleto + ", id=" + id + ", salario=" + salario + ", puesto="
@@ -68,4 +74,6 @@ public class Employee {
 	}
 	
 	
-}
+	
+	
+}//class
